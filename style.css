@@ -1,0 +1,862 @@
+body {
+  color: #2F3132;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  text-align: center;
+}
+
+h1, h2, h3, p, ol {
+  margin-bottom: 0;
+}
+
+section, footer {
+  min-width: 375px;
+}
+
+div {
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  width: 375px;
+}
+
+.sect_head {
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 23.44px;
+  }
+
+.sect_parag {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16.41px;
+}
+
+@media (min-width: 768px) {
+  section, footer {
+    min-width: 768px;
+  }
+
+  div {
+    width: 768px;
+  }
+
+  .sect_head {
+    font-size: 40px;
+    line-height: 47px;
+  }
+
+  .sect_parag {
+    font-size: 24px;
+    line-height: 28px;
+  }
+}
+
+@media (min-width: 1024px) {
+  section, footer {
+    min-width: 1024px;
+  }
+
+  div {
+    width: 1024px;
+  }
+
+  .sect_head {
+    font-size: 36px;
+    line-height: 42px;
+  }
+
+  .sect_parag {
+    font-size: 20px;
+    line-height: 23px;
+  }
+}
+
+/* NAVBAR */
+
+.navigation {
+display: flex;
+justify-content: center;
+margin: 0;
+width: 100%;
+background: #E0E1E2;
+}
+
+.navbar {
+  padding: 0;
+  margin: 0;
+  background: #E0E1E2;
+}
+
+.logitech_dark {
+  width: 130px;
+  height: 39.16px;
+}
+
+.logitech_light {
+  display: none;
+}
+
+.container-fluid {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background: #E0E1E2;
+}
+
+.navbar-brand {
+  padding: 0;
+  margin: 0;
+  background: #E0E1E2;
+}
+
+.navbar-toggler {
+  background: #E0E1E2;
+  padding: 0;
+  margin: 0;
+  justify-content: flex-end;
+}
+
+@media (min-width: 1024px) {
+  .navigation {
+    height: 100px;
+    background: #2F3132;
+    justify-content: space-between;
+  }
+
+  .navbar {
+    background: #2F3132;
+  }
+
+  .navbar-brand {
+    background: #2F3132;
+  }
+
+  .container-fluid {
+    background: #2F3132;
+    height: 100px;
+    width: auto;
+  }
+
+  .logitech_dark {
+    display: none;
+  }
+
+  .logitech_light {
+    display: block;
+  }
+
+  .nav-link {
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 500;
+    color: #FFFFFF;
+  }
+}
+
+/* SECTION 1 - PRODUCTIVE */
+
+.s1_productive {
+  background: #E0E1E2;
+  padding: 158px 0 48px;
+}
+
+.s1_img_container {
+  height: 230px;
+  margin: 0 auto 67px;
+  background-image: url('img/s1_productive/MX_Master_3.png');
+}
+
+.s1_productive p {
+  width: calc(257/375*100%);
+  margin: auto;
+}
+
+.s1_arrow {
+  margin-top: 40px;
+  height: 22px;
+  width: 42px;
+}
+
+@media (min-width: 768px) {
+  .s1_productive {
+    padding: 286px 0 80px;
+  }
+
+  .s1_img_container {
+    height: 514px;
+    margin: 0 auto 124px;
+  }
+
+  .s1_productive p {
+    width: calc(585/894*100%);
+  }
+
+  .s1_arrow {
+    margin-top: 76px;
+    height: 33px;
+    width: 61px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .s1_productive {
+    padding: 20px 0 80px;
+  }
+
+  .s1_productive h2 {
+    padding-top: 80px;
+  }
+
+  .s1_img_container {
+    height: 671px;
+    margin: 0 auto 8px;
+  }
+
+  .s1_productive p {
+    width: 685px;
+  }
+
+  .s1_arrow {
+    margin-top: 49px;
+  }
+}
+
+/* SECTION 2 - WIRELESS */
+
+.s2_wireless {
+  background: #EDEDED;
+  padding: 42px 0 18px;
+}
+
+.s2_bt_icon {
+  margin-bottom: 27px;
+}
+
+
+.s2_wireless p {
+  margin: 20px auto 31px;
+  width: calc(308/375*100%);
+}
+
+.s2_large_text {
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 70px;
+  color: #C4C4C4;
+}
+
+.s2_img_container {
+  height: 218px;
+  margin: auto;
+  background-image: url('img/s2_wireless/MX_Master_3_LEFT.png');
+}
+
+@media (min-width: 768px) {
+  .s2_wireless {
+    padding: 80px 0 0px;
+  }
+
+  .s2_bt_icon {
+    width: 21.45px;
+    height: 39.95px;
+    margin-bottom: 39.05px;
+  }
+
+  .s2_wireless p {
+    margin: 30px auto 76px;
+    width: calc(740/894*100%);
+  }
+
+  .s2_large_text {
+    font-size: 150px;
+    line-height: 176px;
+    margin-bottom: -77px;
+  }
+
+  .s2_img_container {
+    height: 498px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .s2_wireless {
+    padding: 80px 0 69px;
+  }
+
+  .s2_bt_icon {
+    margin-bottom: 35.15px;
+  }
+
+  .s2_wireless p {
+    margin: 35px auto 14px;
+    width: 761px;
+  }
+
+  .s2_70 {
+    font-size: 300px;
+    line-height: 352px;
+    padding-left: 80px;
+  }
+
+  .s2_days {
+    padding-top: 45px;
+  }
+
+  .s2_large_text {
+    font-size: 96px;
+    line-height: 112px;
+    margin-bottom: -352px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .s2_img_container {
+    height: 426px;
+    width: 1245px;
+    background: url('img/s2_wireless/MX_Master_3_FRONT_Laptop.png') no-repeat 0 119px, url('img/s2_wireless/MX_Master_3_LEFT_Laptop.png') no-repeat right 119px;
+  }
+}
+
+/* SECTION 3 - SURFACE */
+
+.s3_surface {
+  background: #FFFFFF;
+  padding: 70px 0 63px;
+}
+
+.s3_p1 {
+  margin: 20px auto 30px;
+  width: calc(257/375*100%);
+}
+
+.s3_box_container {
+  width: auto;
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+  margin-bottom: 27.93px;
+}
+
+.s3_box_item {
+  border: 1px solid #2F3132;
+  flex-basis: 166px;
+  min-height: 94px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.s3_box_item h2 {
+  margin-bottom: 5.2px;
+}
+
+.s3_surface .carousel {
+  height: 240.35px;
+  margin: auto;
+}
+
+.s3_surface .carousel-indicators {
+  width: auto;
+  margin: 0 auto;
+}
+
+.s3_carousel_subheader {
+  margin-top: 27.65px;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.s3_p3 {
+  margin: 70px auto 0;
+  width: calc(308/375*100%);
+}
+
+@media (min-width: 768px) {
+  .s3_surface {
+    padding: 70px 0 61px;
+  }
+
+  .s3_p1 {
+    margin: 30px auto 50px;
+    width: calc(740/894*100%);
+  }
+
+  .s3_box_container {
+    gap: 30px;
+    margin-bottom: 50px;
+  }
+
+  .s3_box_item {
+    flex-basis: 300px;
+    min-height: 170px;
+  }
+
+  .s3_box_item h2 {
+    margin-bottom: 10px;
+  }
+
+  .s3_surface .carousel {
+    width: 768px;
+    height: 100%;
+  }
+
+  .s3_carousel_subheader {
+    margin-top: 50px;
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .s3_p3 {
+    margin: 85px auto 61px;
+    width: calc(740/894*100%);
+  }
+}
+
+@media (min-width: 1280px) {
+  .s3_surface {
+    padding: 100px 0 100px;
+  }
+
+  .s3_p1 {
+    margin: 35px auto 50px;
+    width: 765px;
+  }
+
+  .s3_box_container {
+    gap: 31.5px;
+  }
+
+  .s3_box_item {
+    flex-basis: 236.5px;
+    min-height: 140px;
+  }
+
+  .s3_box_item h2 {
+    margin-bottom: 5px;
+  }
+
+  .s3_surface .carousel {
+    width: 1280px;
+  }
+
+  .s3_carousel_subheader {
+    margin-top: 39px;
+    font-size: 20px;
+    line-height: 23px;
+  }
+
+  .s3_p3 {
+    margin: 90px auto 0;
+    width: 765px;
+  }
+}
+
+/* SECTION 4 - DEVICES */
+
+.s4_devices {
+  background: #EDEDED;
+  padding: 70px 0 218.53px;
+  background-image: url('img/s4_devices/MX_Lifestyle.jpg');
+  background-position: bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: 375px;
+}
+
+.s4_devices h2 {
+  width: calc(318/375*100%);
+  margin: auto;
+}
+
+.s4_devices p {
+  margin: 20px auto 36px;
+  width: calc(308/375*100%);
+}
+
+.s4_devices ol {
+  padding-left: 0;
+  margin: auto;
+  width: 375px;
+  list-style-position: inside;
+}
+
+.s4_devices li {
+  margin-bottom: 16px;
+  text-align: left;
+  width: 224px;
+  margin-left: 54px;
+}
+
+.s4_devices li:last-child {
+  margin-bottom: 0;
+}
+
+@media (min-width: 768px) {
+  .s4_devices {
+    padding: 70px 0 496.21px;
+    background-size: 768px;
+  }
+
+  .s4_devices h2 {
+    width: calc(636/894*100%);
+  }
+
+  .s4_devices p {
+    margin: 30px auto 70px;
+    width: calc(765/894*100%);
+  }
+
+  .s4_devices ol {
+      width: calc(759/894*100%);
+      display: flex;
+      justify-content: center;
+  }
+
+  .s4_devices li {
+    font-size: 20px;
+    line-height: 23px;
+    border-left: 1px solid #494949;
+    margin: 0;
+    padding: 8px 10px 8px 20px;
+    width: auto;
+  }
+
+  .s4_devices li:first-child {
+    border-left: none;
+    padding-left: 0;
+  }
+
+  .s4_devices li:last-child {
+    padding-right: 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .s4_devices {
+    padding: 70px 0 500px;
+    background-size: 1024px;
+    background-image: url('img/s4_devices/MX_Lifestyle_Laptop.jpg');
+  }
+}
+
+@media (min-width: 1280px) {
+  .s4_devices {
+    padding: 100px 0 600px;
+    background-size: 1280px;
+  }
+
+  .s4_devices h2 {
+    width: 792px;
+  }
+
+  .s4_devices p {
+    margin: 35px auto 69px;
+    width: 958px;
+  }
+
+  .s4_devices ol {
+      width: 943px;
+  }
+}
+
+/* SECTION 5 - SETTINGS */
+
+.s5_settings {
+  background: #EDEDED;
+  padding: 70px 0 0;
+}
+
+.s5_settings h2 {
+  width: calc(232/375*100%);
+  margin: auto;
+}
+
+.s5_settings p {
+  margin: 20px auto 35px;
+  width: calc(308/375*100%);
+}
+
+.s5_settings_img {
+  display: none;
+}
+
+.s5_settings .carousel {
+  width: 330px;
+  height: 404.81px;
+  margin: auto;
+}
+
+.s5_settings .carousel-indicators {
+  width: auto;
+  margin: 0 auto;
+}
+
+.apps {
+  width: 375px;
+  height: 155px;
+  background: #C4C4C4;
+  margin: 94.5px auto 0;
+  padding-top: 23px;
+}
+
+.apps_icons {
+  width: 324px;
+  height: 22.15px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.apps p {
+  margin: 19.95px auto 26px;
+  color: #fff;
+}
+
+@media (min-width: 768px) {
+
+  .s5_settings {
+    padding: 70px 0;
+  }
+
+  .s5_settings h2 {
+    width: calc(464/894*100%);
+  }
+
+  .s5_settings p {
+    margin: 30px auto 54px;
+    width: calc(765/894*100%);
+  }
+
+  .s5_settings .carousel {
+    width: 497px;
+    height: 610px;
+  }
+
+  .apps {
+    width: 765px;
+    height: 196px;
+    margin: 148px auto 0;
+    padding-top: 38px;
+  }
+
+  .apps_icons {
+    width: 512px;
+    height: 35px;
+  }
+
+  .apps p {
+    margin: 25px auto 29px;
+    font-size: 20px;
+    line-height: 23px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .s5_settings {
+    padding: 100px 0;
+  }
+
+  .s5_settings h2 {
+    width: 700px;
+  }
+
+  .s5_settings p {
+    margin: 38px auto 72px;
+    width: 958px;
+  }
+
+  .s5_settings_img {
+    display: block;
+    height: 642px;
+    margin: auto;
+    background-image: url('img/s5_settings/settings.png');
+  }
+
+  #s5_settings_carousel {
+    display: none;
+  }
+
+  .apps {
+    width: 749px;
+    margin: 0 auto;
+  }
+
+  .apps p {
+    width: 700px;
+    margin: 25px auto 29px;
+  }
+}
+
+/* SECTION 6 - ADVANTAGES */
+
+.s6_advantages {
+  background: #FFFFFF;
+  padding: 70px 0 0;
+}
+
+.s6_txt_1, .s6_txt_2 {
+  width: auto;
+}
+
+.s6_h1 {
+  width: calc(307/375*100%);
+  margin: auto;
+}
+
+.s6_p1 {
+  width: calc(307/375*100%);
+  margin: 20px auto 20px;
+}
+
+.s6_img {
+  height: 310px;
+  margin: auto;
+}
+
+.s6_img_1 {
+  background-image: url('img/s6_advantages/img1.jpg');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.s6_img_2 {
+  background-image: url('img/s6_advantages/img2.jpg');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.s6_h2 {
+  width: calc(307/375*100%);
+  margin: 70px auto 0;
+}
+
+.s6_p2 {
+  width: calc(308/375*100%);
+  margin: 20px auto 20px;
+}
+
+@media (min-width: 768px) {
+  .s6_h1 {
+    width: calc(762/894*100%);
+  }
+
+  .s6_p1 {
+    width: calc(762/894*100%);
+    margin: 30px auto 50px;
+  }
+
+  .s6_img {
+    height: 549px;
+  }
+
+  .s6_img_1 {
+    background-image: url('img/s6_advantages/img1-tab.jpg');
+    background-size: cover;
+  }
+
+  .s6_img_2 {
+    background-image: url('img/s6_advantages/img2-tab.jpg');
+    background-size: cover;
+  }
+
+  .s6_h2 {
+    width: calc(352/894*100%);
+  }
+
+  .s6_p2 {
+    width: calc(762/894*100%);
+    margin: 30px auto 50px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .s6_advantages {
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 1280px;
+    margin: auto;
+  }
+
+  .s6_img, .s6_txt {
+    height: 557px;
+    width: 640px;
+  }
+
+  .s6_txt_1 {
+    text-align: left;
+    padding-left: 36px;
+    order: 1;
+  }
+
+  .s6_h1 {
+    width: 281px;
+    margin: 121px 0 0;
+  }
+
+  .s6_p1 {
+    width: 400px;
+    margin: 28px 0 0 ;
+  }
+
+  .s6_img_1 {
+    background-image: url('img/s6_advantages/img1-laptop.jpg');
+    order: 0;
+    margin: 0;
+  }
+
+  .s6_txt_2 {
+    text-align: right;
+    padding-right: 32px;
+    order: 2;
+  }
+
+  .s6_img_2 {
+    background-image: url('img/s6_advantages/img2-laptop.jpg');
+    order: 3;
+    margin: 0;
+  }
+
+  .s6_h2 {
+    width: 317px;
+    margin: 162px 0 0 auto;
+  }
+
+  .s6_p2 {
+    width: 400px;
+    margin: 34px 0 0 auto;
+  }
+}
+
+
+/* FOOTER */
+
+footer {
+  background: #2F3132;
+  padding: 22px 0 37px 0;
+}
+
+footer .sect_parag {
+  color: #C7C8C8;
+  font-size: 7px;
+  line-height: 8px;
+}
+
+@media (min-width: 768px) {
+  footer {
+    padding: 47px 0 71px 0;
+  }
+
+  footer .sect_parag {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
